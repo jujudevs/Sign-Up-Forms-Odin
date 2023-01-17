@@ -1,0 +1,62 @@
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+  #error-message {
+    display: none;
+    color: red;
+  }
+  
+  form:invalid + #error-message {
+    display: block;
+  }
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+
+  input:invalid {
+    background-color: #ffdddd;
+  }
+  
+  input:valid {
+    background-color: #ddffdd;
+  }
+  
+  
+
+  .form-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: 0 10px;
+    //*background-color: #ddd; */
+    color: #333;
+    border: none;
+  }
+  
+  
+  label {
+    font-size: 1.2rem;
+    margin-right:10px;
+  }
+  
+  
+  @media screen and (min-width: 768px) {
+  }
+  
+  @media screen and (max-width: 767px) {
+  }
+  
+  
