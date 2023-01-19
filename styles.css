@@ -40,7 +40,7 @@ input:invalid {
 }
 
 input:valid {
-  background-color: #92f092;
+  background-color: #8FBC8F;
   border: 1px solid green;
 }
 
@@ -103,4 +103,68 @@ input[type="submit"]:hover {
   .form-container {
       width: 90%;
   }
+}
+
+.company-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px 0;
+  font-weight:bold;
+}
+
+.company-name p{
+  font-family: 'Montserrat', sans-serif;
+  color: #556B2F;
+  text-align:center;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .company-name p {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .company-name p {
+    font-size: 1.5rem;
+  }
+}
+
+.form-container {
+  background-color: #F5DEB3;
+}
+
+.promo-line{
+  font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+  text-align:center;
+  color: #556B2F;
+
+  margin-top:10px;
+}
+
+.form-row.company-name {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#company-name{
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #8B5E3C;
+}
+
+#company-name {
+  width: 80%;
+  margin: auto;
+}
+
+body{
+  background-image: url('images/road.jpg');
+  background-position: center 75%;
+  background-size: cover;
 }
